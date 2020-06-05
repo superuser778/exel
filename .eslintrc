@@ -11,5 +11,6 @@
         "require-jsdoc": "off",
         "linebreak-style": ["error", "windows"]
     },
-    "extends": ["eslint:recommended", "google"]
+    "plugins": ["prettier"],
+    "extends": ["eslint:recommended", "google", "prettier"]
 }
